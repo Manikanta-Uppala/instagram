@@ -71,3 +71,24 @@ ll -a
 git status
 git add .
 git commit -m "all files commit" *
+git branch
+git branch reels
+git branch
+git checkout reels
+ll
+touch reels{1..5}
+git add 
+git add .
+git status
+git commit -m "reels commit "
+ll
+git checkout -b vcalls
+git branch
+touch vcalls{1..5}
+ll -a
+git commit -m "vcalls commit"
+git add .
+git status
+git commit -m "vcalls commit"
+ll -a
+git log 
